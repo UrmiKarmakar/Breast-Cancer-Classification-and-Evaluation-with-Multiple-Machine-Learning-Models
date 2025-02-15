@@ -1,10 +1,18 @@
 # Breast Cancer Classification and Evaluation with Multiple Machine Learning Models
-This project focuses on classifying breast cancer using multiple machine-learning models. It includes data preprocessing, feature selection, model training, and performance evaluation. The Breast Cancer Wisconsin dataset is used to train and test models, ensuring reliable predictions.
+This project implements multiple machine learning models to classify breast cancer cases using the Breast Cancer Wisconsin dataset. It involves data preprocessing, feature selection, exploratory data analysis (EDA), and model evaluation to determine the most effective approach for diagnosis.
 
-Key features:
-
-Data preprocessing (handling missing values, scaling, train-test split)
-Implementation of Logistic Regression, SVM, Decision Tree, Random Forest, KNN, Naïve Bayes, Neural Network, and Voting Classifier
-Model evaluation using accuracy, precision, recall, F1-score, and ROC-AUC
-Feature selection and hyperparameter tuning for improved performance
-This repository provides a structured approach to building and evaluating machine learning models for medical diagnosis.
+Project Features:
+Data Preprocessing: Handling missing values, feature scaling, and outlier detection
+Feature Selection: Using SelectKBest to extract the most relevant features
+Exploratory Data Analysis (EDA): Statistical summaries, correlation heatmaps, and visualizations
+Dimensionality Reduction: PCA for feature visualization
+Model Implementation: Training and evaluating multiple ML algorithms
+Performance Metrics: Accuracy, precision, recall, F1-score, AUC-ROC, and confusion matrices
+Implemented Models:
+Logistic Regression
+Decision Tree
+Random Forest
+Support Vector Machine (SVM)
+K-Nearest Neighbors (KNN)
+Naïve Bayes
+This repository provides a comparative study of different classification models, highlighting their strengths and weaknesses in breast cancer detection.
